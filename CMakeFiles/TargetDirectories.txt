@@ -1,3 +1,0 @@
-/home/tazik/Nextcloud/Art/detectLetters/CMakeFiles/rebuild_cache.dir
-/home/tazik/Nextcloud/Art/detectLetters/CMakeFiles/detectLetters.dir
-/home/tazik/Nextcloud/Art/detectLetters/CMakeFiles/edit_cache.dir
