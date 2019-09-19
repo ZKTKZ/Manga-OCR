@@ -1,5 +1,5 @@
 #!/bin/bash
-dir=akame-ga-kiru
+dir=manga/dragon-ball
 
 x="ls $PWD/$dir -1q $dir*.jpg | wc -l"
 eval $x
@@ -30,18 +30,7 @@ run_cpp(){
 "./detectLetters"
 }
 
-run_tesseract(){
-for chapter in $dir/*; do
-        root=${chapter//$dir-}
-        root=${root//$dir"/"}
-        for page in $chapter/*.jpg; do
-                tesseract --psm 4 $page - >> "$dir/$root.txt" 
-                done;
-done;
-}
-
 #download
 #rename
 #extract
 #run_cpp
-run_tesseract
