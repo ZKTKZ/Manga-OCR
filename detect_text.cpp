@@ -28,7 +28,6 @@ cv::Ptr<cv::SimpleBlobDetector> create_blob_detector(){
 }
 
 
-
 void process_image(cv::Mat img, std::string img_name, tesseract::TessBaseAPI *api)
 {
         cv::Ptr<cv::SimpleBlobDetector> blob_detector = create_blob_detector();
