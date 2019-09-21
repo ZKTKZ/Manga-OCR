@@ -5,7 +5,7 @@ C++ program to detect blob features in Manga images, extract text by applying im
 
 Currently working on ways to manage memory and CPU usage by optimizing image I/O, pre-processing, text extraction process.
 
-Examples to be posted soon.
-
-![alt text](https://raw.githubusercontent.com/ZKTKZ/Manganese/master/samples/sample.png)
-
+#Examples
+<p align="center">
+<img src=(https://github.com/ZKTKZ/Manganese/master/samples/sample.png?raw=true)" alt="Example of output"/>
+</p>
