@@ -7,5 +7,5 @@ Currently working on ways to manage memory and CPU usage by optimizing image I/O
 
 #Examples
 <p align="center">
-<img src=(https://github.com/ZKTKZ/Manganese/master/samples/sample.png?raw=true)" alt="Example of output"/>
+<img src="https://github.com/ZKTKZ/Manganese/master/samples/sample.png?raw=true" alt="Example of output"/>
 </p>
