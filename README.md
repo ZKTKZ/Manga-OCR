@@ -7,5 +7,5 @@ Currently working on ways to manage memory and CPU usage by optimizing image I/O
 
 Examples to be posted soon.
 
-
+![alt text](https://raw.githubusercontent.com/ZKTKZ/Manganese/master/samples/sample.png)
 
