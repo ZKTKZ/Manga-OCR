@@ -75,11 +75,13 @@ void process_image(cv::Mat img, std::string img_name, tesseract::TessBaseAPI *ap
                 ocr_text = nullptr;
         }
        
-        /*
         cv::Mat img_with_keypoints;
-        drawKeypoints( img, keypoints, img_with_keypoints, cv::Scalar(0,0,255), cv::DrawMatchesFlags::DRAW_RICH_KEYPOINTS );
-        cv::imshow("keypoints.jpg", img_with_keypoints ); cv::waitKey(0);
-        */
+        drawKeypoints( img, keypoints, img_with_keypoints, cv::Scalar(200,50,50), cv::DrawMatchesFlags::DRAW_RICH_KEYPOINTS );
+        std::cout << img_name << ".jpg" << std::endl;
+        cv::imwrite(img_name+"keypoints_.jpg", img_with_keypoints ); 
+        //cv::waitKey(0);
+        img_with_keypoints.release();
+
         //OpenCV memory realloc 
         img.release();
         img_blurred.release();

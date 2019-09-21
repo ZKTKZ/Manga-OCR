@@ -1,7 +1,7 @@
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 cmake_minimum_required(VERSION 2.8)
-project( detectLetters )
+project( detect_text )
 find_package( OpenCV REQUIRED )
 FIND_PACKAGE(OpenMP REQUIRED)
 #if(OPENMP_CXX_FOUND)
@@ -29,6 +29,6 @@ FIND_PACKAGE(OpenMP REQUIRED)
 #include_directories( ${JPEG_INCLUDE_DIRS} )
 #set(LIBS ${LIBS} ${PNG_LIBRARIES})
 
-add_executable( detectLetters detectLetters.cpp ) #ccv/lib/nnc/ccv_nnc_tfb.h )
-target_link_libraries( detectLetters ${OpenCV_LIBS} stdc++fs tesseract lept) # libccv 
+add_executable( detect_text detect_text.cpp ) #ccv/lib/nnc/ccv_nnc_tfb.h )
+target_link_libraries( detect_text ${OpenCV_LIBS} stdc++fs tesseract lept) # libccv 
 #set_target_properties( libccv PROPERTIES LINKER_LANGUAGE CXX)
