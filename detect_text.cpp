@@ -76,7 +76,7 @@ void process_image(cv::Mat img, std::string img_name, tesseract::TessBaseAPI *ap
         }
        
         cv::Mat img_with_keypoints;
-        drawKeypoints( img, keypoints, img_with_keypoints, cv::Scalar(200,50,50), cv::DrawMatchesFlags::DRAW_RICH_KEYPOINTS );
+        drawKeypoints( img, keypoints, img_with_keypoints, cv::Scalar(50,200,50), cv::DrawMatchesFlags::DRAW_RICH_KEYPOINTS );
         std::cout << img_name << ".jpg" << std::endl;
         cv::imwrite(img_name+"keypoints_.jpg", img_with_keypoints ); 
         //cv::waitKey(0);
